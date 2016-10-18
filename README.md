@@ -2,7 +2,12 @@
 Markei FileSystemOperations
 ===========================
 
-Setup WordPress core, themes and plugins via composer.
+Add "Markei\\FileSystemOperations\\Composer::run" to a script section.
+
+In the extra section add an array with the operations. Each operation is an array, the first item is the method of a [Symfony Filesystem class](http://symfony.com/doc/current/components/filesystem.html), the next items are used as parameters.
+
+
+Example: Setup WordPress core, themes and plugins via composer.
 
     {
         "name": "my-company/my-wordpress-site",
