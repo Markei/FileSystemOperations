@@ -1,0 +1,16 @@
+{
+	"name" : "markei/filesystemoperations",
+	"description" : "Add filesystem operations on Composer events",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Maarten de Keizer",
+			"email" : "m.de.keizer@markei.nl"
+		}
+	],
+	"autoload": {
+		"psr-4": {"Markei\\FileSystemOperations\\": "src/Markei/FileSystemOperations"}
+	},
+	"require" : {
+		"symfony/filesystem": "~3"
+	}
+}
