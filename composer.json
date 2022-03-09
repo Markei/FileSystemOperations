@@ -11,6 +11,6 @@
 		"psr-4": {"Markei\\FileSystemOperations\\": "src/Markei/FileSystemOperations"}
 	},
 	"require" : {
-		"symfony/filesystem": "^3|^4"
+		"symfony/filesystem": "^3|^4|^5"
 	}
 }
